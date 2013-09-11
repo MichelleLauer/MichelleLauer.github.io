@@ -6,11 +6,20 @@
 
 
 html {
+	background-color:#000;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+
+@media only screen and (min-width: 40em) {
+html {
 	background-image: url(images/michelle.jpg);
 	background-color:#000;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	
+}
 }
 	
 body {
